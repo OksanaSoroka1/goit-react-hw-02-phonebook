@@ -16,9 +16,7 @@ class App extends Component {
     filter: '',
   };
   onFormSubmit = data => {
-    console.log('data', data);
     this.addContact(data);
-    console.log('contacts', this.state.contacts);
   };
   handleChange = event => {
     const { name, value } = event.target;
